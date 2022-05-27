@@ -268,9 +268,14 @@ img {
 }
 
 /* -----------------------footer------------------------------ */
+.footer-nav {
+    box-sizing: border-box;
+}
 
 .footer {
     background: var(--footer-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-logo {
@@ -280,12 +285,14 @@ img {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--alternative-color);
-    margin-bottom: 20px;
-    margin-top: 60px;
 }
 
 .color-two {
     color: var(--primary-white-color);
+}
+
+.footer-adress {
+    padding-top: 20px;
 }
 
 .footer-adress,
@@ -297,8 +304,9 @@ img {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--primary-white-color);
-    margin-bottom: 9px;
-    margin-top: 9px;
+}
+.footer-item {
+    padding-top: 9px;
 }
 
 .footer-contact {
@@ -353,6 +361,10 @@ img {
 }
 
 /* -----------------------portfolio content------------------------------ */
+
+.portfolio-btn {
+    display: flex;
+}
 
 .content-text {
     font-weight: 700;
