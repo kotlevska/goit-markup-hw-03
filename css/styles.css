@@ -38,7 +38,6 @@ body {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 1px solid red;
 }
 
 .link {
@@ -332,6 +331,7 @@ img {
 
 .portfolio-btn {
     display: flex;
+    margin-top: 100px;
     margin-bottom: 50px;
     justify-content: center;
 }
