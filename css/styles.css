@@ -66,14 +66,17 @@ img {
     margin-right: 50px;
 }
 
+.adress-connect {
+    padding: 32px 0;
+    display: block;
+}
+
 .header-item:not(:last-child) {
     margin-right: 50px;
 }
 
 .header {
     background: var(--primary-white-color);
-    padding-top: 40px;
-    padding-bottom: 40px;
 }
 
 .header-logo {
@@ -89,6 +92,8 @@ img {
 }
 
 .header-link {
+    padding: 32px 0;
+    display: block;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -163,8 +168,7 @@ img {
 }
 
 .main {
-    padding-top: 54px;
-    padding-bottom: 69px;
+    padding: 94px 0;
 }
 
 .main-item:not(:last-child) {
@@ -203,10 +207,12 @@ img {
 }
 
 /* -----------------------box------------------------------ */
+.box {
+    padding: 94px 0;
+}
 
 .box-list {
     display: flex;
-    margin-bottom: 94px;
 }
 
 .box-item:not(:last-child) {
@@ -235,9 +241,13 @@ img {
     border-radius: 0px 0px 4px 4px;
 }
 
+.about {
+    padding: 94px 0;
+    background: #f5f4fa;
+}
+
 .about-list {
     display: flex;
-    margin-bottom: 94px;
 }
 
 .about-title {
@@ -255,9 +265,7 @@ img {
     line-height: 1.18;
     letter-spacing: 0.03em;
     text-align: center;
-    padding-top: 30px;
     color: var(--text-title-color);
-    margin-bottom: 10px;
 }
 
 .about-subtitle {
@@ -265,9 +273,16 @@ img {
     line-height: 1.18;
     letter-spacing: 0.03em;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 30px;
     color: var(--text-color);
+}
+
+.text-name {
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+
+.text-prof {
+    padding-bottom: 30px;
 }
 
 /* -----------------------footer------------------------------ */
@@ -325,13 +340,15 @@ img {
 
 /* -----------------------portfolio button------------------------------ */
 
+.button {
+    padding: 94px 0;
+}
 .border {
     border: 1px solid #ececec;
 }
 
 .portfolio-btn {
     display: flex;
-    margin-top: 100px;
     margin-bottom: 50px;
     justify-content: center;
 }
@@ -401,10 +418,6 @@ img {
 }
 
 /* -----------------------portfolio content------------------------------ */
-
-.catalog {
-    margin-bottom: 94px;
-}
 
 .content-list {
     display: flex;
